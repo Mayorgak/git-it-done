@@ -51,6 +51,8 @@ var displayIssues = function (issues) {
       return;
     }
   for (var i = 0; i < issues.length; i++) {
+
+    
     // create a link element to take users to the issue on github
     var issueEl = document.createElement("a");
     issueEl.classList = "list-item flex-row justify-space-between align-center";
